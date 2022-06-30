@@ -76,7 +76,7 @@ if ((count($array_2, COUNT_RECURSIVE)== count($array_2))){
     echo 'Массив - одномерный';
 
 }else{
-    echo 'Массив - многоверный'
+    echo 'Массив - многоверный';
 };
 
 //Task 7  Вывести таблицу умножения
@@ -85,6 +85,6 @@ if ((count($array_2, COUNT_RECURSIVE)== count($array_2))){
  for ($i = $x; $i<=$y;$i++){
     echo 'Таблица умножения на '.$i.'<br>';
     for ($j=$x; $j <=$y;$j++){
-        echo $i.'*'.$j.'='$i*$j.'<br>';
+        echo $i.'*'.$j.'='.$i*$j.'<br>';
     }
  } 
