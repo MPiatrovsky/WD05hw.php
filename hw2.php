@@ -73,7 +73,7 @@ if ((count($array_2, COUNT_RECURSIVE)== count($array_2))){
 }else{
     echo 'Массив - многоверный';
 };
-echo "<br"; 
+echo "<br";  
 
 //Task 7  Вывести таблицу умножения
  $x=1;
